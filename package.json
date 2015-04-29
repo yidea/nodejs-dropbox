@@ -1,0 +1,17 @@
+{
+  "name": "project-nodejs-dropbox",
+  "version": "1.0.0",
+  "description": "code path pre-work",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node -- index.js"
+  },
+  "author": "Yi Cao",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.55.0",
+    "through": "^2.3.7",
+    "underscore": "^1.8.3",
+    "yargs": "^3.7.2"
+  }
+}
