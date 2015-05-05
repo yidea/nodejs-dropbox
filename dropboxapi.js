@@ -1,6 +1,5 @@
 /**
- * Project Dropbox
- *
+ * Dropbox API
  */
 let fs = require("fs");
 let path = require("path");

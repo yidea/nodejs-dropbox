@@ -1,6 +1,7 @@
 /**
- * Project Dropbox
+ * Nodejs Dropbox clone
  *
+ * @learned: fs api, promise/async, http, tcp api
  * @todo: use chokidar? json-socket,socket.io?
  */
 let fs = require("fs");

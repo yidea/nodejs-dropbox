@@ -2,7 +2,7 @@
 
 This is a basic Dropbox clone to sync files across multiple remote folders.
 
-Time spent: 14 hours
+Time spent: 16 hours
 
 ### Features
 
@@ -29,5 +29,5 @@ Time spent: 14 hours
 
 ### Walkthrough
 
-![Video Walkthrough]()
+![delete](https://github.com/yidea/nodejs-dropbox/blob/master/gif/delete.gif)
 
