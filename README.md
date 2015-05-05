@@ -78,6 +78,11 @@ Time spent: 16 hours
 - Client will sync from server over TCP to cwd or CLI `dir` argument
 
   ```
+  npm start //run http server + tcp server
+  npm run client //run tcp client
+  ```
+
+  ```
   //create
   curl -v http://127.0.0.1:3000/foo/bar.js -X PUT -d "PUT"
   cat test/foo/bar.js

@@ -1,7 +1,10 @@
 /**
  * tcpClient
  *
- * @test npm run client
+ * @test
+ * npm start //run http server + tcp server
+ * npm run client //run tcp client
+ *
  * ls test
  * //create
  * curl -v http://127.0.0.1:3000/foo/bar.js -X PUT -d "PUT"
