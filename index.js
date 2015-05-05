@@ -47,12 +47,6 @@ tcpServer.listen(TCP_PORT, () => {
   console.log(`TCP server listening on ${TCP_PORT}`);
 });
 
-//Client will sync from server over TCP to cwd or CLI `dir` argument
-// run http server running: for file CRUD API
-// run a tcp server: watch file changes, then notify client
-// when curl -v -PUT, created a file via http server: tcp server will issue a change to client
-
-
 /**
  * @HTTP SERVER API
  */
