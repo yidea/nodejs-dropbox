@@ -29,5 +29,19 @@ Time spent: 16 hours
 
 ### Walkthrough
 
-![delete](https://github.com/yidea/nodejs-dropbox/blob/master/gif/delete.gif)
+- Client can make GET requests to get file or directory contents
+  ![gif](https://github.com/yidea/nodejs-dropbox/blob/master/gif/get.gif)
+- Client can make HEAD request to get just the GET headers 
+  ![gif](https://github.com/yidea/nodejs-dropbox/blob/master/gif/head.gif)
+- Client can make PUT requests to create new directories and files with content
+  ![gif](https://github.com/yidea/nodejs-dropbox/blob/master/gif/put.gif)
+- Client can make POST requests to update the contents of a file
+  ![gif](https://github.com/yidea/nodejs-dropbox/blob/master/gif/post.gif)
+- Client can make DELETE requests to delete files and folders
+  ![gif](https://github.com/yidea/nodejs-dropbox/blob/master/gif/delete.gif)
+- Server will serve from `--dir` or cwd as root
+  ![gif](https://github.com/yidea/nodejs-dropbox/blob/master/gif/dir.gif)
+- Client will sync from server over TCP to cwd or CLI `dir` argument
+  ![gif](https://github.com/yidea/nodejs-dropbox/blob/master/gif/tcp.gif)
+
 
